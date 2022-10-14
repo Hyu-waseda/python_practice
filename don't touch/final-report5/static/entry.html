@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>予約登録</title>
+</head>
+<body>
+<h2>予約登録</h2>
+<form method="POST" action="submit">
+<p>タイトル：<input type="text" name="title" required/></p>
+<p>氏名：<input type="text" name="name" required/></p>
+<p><input type="text" name="year" required/>年<input type="text" name="month" required/>月<input type="text" name="day" required/>日</p>
+<p><input type="text" name="hour" required/>時から1時間</p>
+<p>※予約は１ヶ月後までしか選べません</p>
+<p><select name="room" required>
+  <option value="会議室A">会議室A</option>
+  <option value="会議室B">会議室B</option>
+  <option value="会議室C">会議室C</option>
+  </select></p>
+<input type="submit" />
+</form>
+<p><a href="/list">一覧表示</a></p>
+</body>
+</html>
