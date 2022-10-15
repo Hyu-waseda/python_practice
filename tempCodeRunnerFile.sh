@@ -1,1 +1,0 @@
-source ~/.venv/pylec/bin/activate
