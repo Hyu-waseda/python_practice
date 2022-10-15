@@ -1,3 +1,2 @@
 *.tpl linguist-language=HTML
 *.jupyter linguist-language=
-*.ipynb linguist-language=
